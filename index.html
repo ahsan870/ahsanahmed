@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahsan Ahmed — Software Engineer & AI/ML Researcher | MS Analytics @ Georgia Tech</title>
+  <meta name="description" content="Ahsan Ahmed — Software Engineer specializing in AI, Machine Learning, Deep Learning, and Neural Networks. Currently pursuing MS Analytics @ Georgia Tech." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <div class="scroll-indicator" id="scrollIndicator"></div>
+
+  <header>
+    <nav class="container">
+      <div class="logo">Ahsan Ahmed</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#ml-focus">AI/ML Focus</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+      </ul>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="avatar-container">
+            <img class="avatar" src="profile-pic.png" alt="Ahsan Ahmed">
+          </div>
+          <h1>Ahsan Ahmed</h1>
+          <p class="subtitle">Software Engineer • AI/ML Researcher</p>
+          <div class="ml-badge">🎓 MS Analytics @ Georgia Tech</div>
+          <p class="description">
+            Building enterprise-grade applications in telecom | Pursuing MS Analytics @ Georgia Tech<br>
+            Passionate about <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, 
+            <strong>Deep Learning</strong>, and <strong>Neural Networks</strong>
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary" id="contactBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              Get in Touch
+            </a>
+            <a href="#ml-focus" class="btn btn-secondary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+              Explore AI/ML Work
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://x.com/ahsan70" target="_blank" rel="noopener" class="social-link" title="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2H21l-6.56 7.49L22.5 22h-6.91l-4.83-6.34L4 22H1.244l7.02-8.01L1.5 2h6.91l4.38 5.73L18.244 2Zm-2.43 18h1.84L8.29 4h-1.84l9.364 16Z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/ahsan-ahmed-2b89b0180/" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.98 3.5A2.5 2.5 0 1 1 2.48 6 2.5 2.5 0 0 1 4.98 3.5ZM3 8h4v13H3zm7 0h3.8v1.78h.05A4.16 4.16 0 0 1 18.5 8c3.2 0 3.8 2.1 3.8 4.8V21H18v-6.1c0-1.46-.03-3.34-2.03-3.34-2.03 0-2.34 1.58-2.34 3.23V21h-4z"/>
+              </svg>
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=2KUsRlAAAAAJ" target="_blank" rel="noopener" class="social-link" title="Google Scholar">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 3 2 9l10 6 10-6-10-6Zm0 8.5L4.5 9 12 5.5 19.5 9 12 11.5ZM7 13.8 12 17l5-3.2V20H7v-6.2Z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/ahsan870" target="_blank" rel="noopener" class="social-link" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.76.08-.75.08-.75 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.79.42-1.32.76-1.62-2.66-.3-5.47-1.33-5.47-5.92 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.53 11.53 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.6-2.81 5.61-5.49 5.91.43.38.81 1.12.81 2.26v3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/>
+              </svg>
+            </a>
+            <a href="https://orcid.org/0009-0003-5421-9788" target="_blank" rel="noopener" class="social-link" title="ORCID">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 1.4a10.6 10.6 0 1 0 0 21.2 10.6 10.6 0 0 0 0-21.2ZM7.86 7.3h1.4v9.4h-1.4V7.3Zm4.84 0a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4Zm0 1.4a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6ZM7.72 5.38c0-.52.42-.94.94-.94s.94.42.94.94-.42.94-.94.94-.94-.42-.94-.94Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>I'm <strong>Ahsan Ahmed</strong>, a Software Engineer with over <strong>7 years of experience</strong> in designing and building enterprise-grade applications, currently pursuing an <strong>MS in Analytics at Georgia Tech</strong> to deepen my expertise in <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Data Science</strong>.</p>
+          <p>My core expertise lies in <strong>Java Spring Boot development</strong> and supporting large-scale applications in the telecommunications industry. Over the years, I've also been deeply involved in <strong>infrastructure design</strong>, <strong>CI/CD pipeline automation</strong>, and <strong>cloud engineering</strong> across AWS, Docker, Kubernetes (EKS, TKGS), and traditional virtualization platforms.</p>
+          <p>Currently, I'm expanding my knowledge through my <strong>Master's in Analytics at Georgia Tech</strong>, where I'm diving deep into <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Neural Networks</strong>, and advanced data science techniques. This academic journey complements my professional experience, allowing me to bridge the gap between software engineering and cutting-edge AI research.</p>
+          <p>I'm passionate about the intersection of <strong>software engineering</strong> and <strong>data science</strong>—bridging reliable systems with intelligent decision-making. My research interests include <strong>Retrieval-Augmented Generation (RAG)</strong>, <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Neural Networks</strong>, <strong>MLOps</strong>, <strong>blockchain</strong>, and their applications in <strong>telecom</strong> and <strong>healthcare</strong> systems.</p>
+          <p>I thrive at the edge where new technologies meet production-grade reliability, and I'm always curious to explore what's next in AI, ML, and their real-world applications.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI/ML Focus Section -->
+    <section id="ml-focus">
+      <div class="container">
+        <h2 class="section-title">AI & Machine Learning Focus</h2>
+        <p class="section-subtitle">Exploring the frontiers of Artificial Intelligence, Machine Learning, Deep Learning, and Neural Networks through research and practical applications</p>
+        
+        <div class="ml-focus">
+          <h3 style="font-size: 24px; margin-bottom: 16px; color: var(--text-primary); text-align: center;">Core Research Areas</h3>
+          <div class="ml-focus-grid">
+            <div class="ml-focus-item">
+              <h3>🤖 Artificial Intelligence</h3>
+              <p>Exploring AI systems, intelligent agents, and cognitive computing. Researching how AI can solve complex real-world problems in healthcare, finance, and telecommunications.</p>
+            </div>
+            <div class="ml-focus-item">
+              <h3>🧠 Machine Learning</h3>
+              <p>Developing ML models for predictive analytics, pattern recognition, and automated decision-making. Applying supervised, unsupervised, and reinforcement learning techniques.</p>
+            </div>
+            <div class="ml-focus-item">
+              <h3>🔬 Deep Learning</h3>
+              <p>Working with deep neural networks, CNNs, RNNs, and Transformers. Building models for natural language processing, computer vision, and sequence prediction tasks.</p>
+            </div>
+            <div class="ml-focus-item">
+              <h3>⚡ Neural Networks</h3>
+              <p>Designing and optimizing neural network architectures. Experimenting with various architectures including feedforward, convolutional, recurrent, and attention-based networks.</p>
+            </div>
+            <div class="ml-focus-item">
+              <h3>🔄 Retrieval-Augmented Generation (RAG)</h3>
+              <p>Researching RAG systems that combine retrieval mechanisms with generative models to enhance AI capabilities, particularly in knowledge-intensive applications.</p>
+            </div>
+            <div class="ml-focus-item">
+              <h3>🚀 MLOps</h3>
+              <p>Implementing ML operations pipelines for model deployment, monitoring, and continuous improvement. Bridging the gap between ML research and production systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+              AI & Machine Learning
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag ml-skill-tag">Machine Learning</span>
+              <span class="skill-tag ml-skill-tag">Deep Learning</span>
+              <span class="skill-tag ml-skill-tag">Neural Networks</span>
+              <span class="skill-tag ml-skill-tag">RAG</span>
+              <span class="skill-tag ml-skill-tag">MLOps</span>
+              <span class="skill-tag ml-skill-tag">Python</span>
+              <span class="skill-tag ml-skill-tag">TensorFlow</span>
+              <span class="skill-tag ml-skill-tag">PyTorch</span>
+              <span class="skill-tag ml-skill-tag">Scikit-learn</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+              Backend Development
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">Microservices</span>
+              <span class="skill-tag">Enterprise Architecture</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+              Cloud & DevOps
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Kubernetes</span>
+              <span class="skill-tag">EKS</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Infrastructure Design</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 00-2-2h-5l-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2h13a2 2 0 002-2z"/>
+                <path d="M7 10h10M7 14h10"/>
+              </svg>
+              Data Science
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Data Analytics</span>
+              <span class="skill-tag">Statistical Analysis</span>
+              <span class="skill-tag">Data Visualization</span>
+              <span class="skill-tag">Predictive Modeling</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              Telecom Systems
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Telecommunications</span>
+              <span class="skill-tag">Network Systems</span>
+              <span class="skill-tag">Enterprise Applications</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+              Other Technologies
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Blockchain</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Agile/Scrum</span>
+              <span class="skill-tag">System Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-title">Software Engineer</div>
+              <div class="timeline-company">Telecommunications Industry</div>
+              <div class="timeline-date">2017 - Present</div>
+              <div class="timeline-description">
+                Designing and building enterprise-grade applications using Java Spring Boot. 
+                Supporting large-scale applications with focus on infrastructure design, 
+                CI/CD pipeline automation, and cloud engineering across AWS, Docker, and Kubernetes.
+                Integrating ML models into production systems and exploring AI applications in telecom.
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-title">Key Achievements</div>
+              <div class="timeline-company">7+ Years Experience</div>
+              <div class="timeline-date">Ongoing</div>
+              <div class="timeline-description">
+                • Built and maintained production systems serving millions of users<br>
+                • Implemented CI/CD pipelines reducing deployment time by 60%<br>
+                • Designed scalable cloud infrastructure on AWS and Kubernetes<br>
+                • Led migration projects from monolithic to microservices architecture<br>
+                • Applied ML models for predictive analytics and intelligent automation
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-degree">MS in Analytics</div>
+            <div class="education-school">Georgia Institute of Technology</div>
+            <div class="education-details">
+              Currently pursuing advanced studies in analytics, focusing on machine learning, 
+              deep learning, neural networks, and their applications in real-world systems. 
+              Coursework includes advanced ML algorithms, deep learning architectures, 
+              statistical methods, and data science applications.
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="education-degree">Bachelor's in Computer Information Systems</div>
+            <div class="education-school">Completed</div>
+            <div class="education-details">
+              Foundation in computer science, information systems, and software engineering 
+              principles that form the basis of my technical expertise. This background 
+              enables me to bridge software engineering with data science and AI.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects & Research</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-title">AI-Based Healthcare Cost Forecasting</div>
+            <div class="project-description">
+              Developed an AI framework using machine learning and deep learning techniques 
+              for medical cost forecasting and financial transaction monitoring in healthcare systems. 
+              Implemented predictive models to optimize financial risk management.
+            </div>
+            <div class="project-tech">
+              <span>Machine Learning</span>
+              <span>Deep Learning</span>
+              <span>Python</span>
+              <span>Predictive Analytics</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">Transformer-Based Threat Detection</div>
+            <div class="project-description">
+              Research on transformer-based neural network architectures for threat detection 
+              in blockchain healthcare transactions. Applied state-of-the-art deep learning 
+              models to enhance security in healthcare blockchain systems.
+            </div>
+            <div class="project-tech">
+              <span>Neural Networks</span>
+              <span>Transformers</span>
+              <span>Blockchain</span>
+              <span>Deep Learning</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">Reinforcement Learning for Financial Risk</div>
+            <div class="project-description">
+              Hybrid reinforcement learning and knowledge graph framework for financial risk 
+              optimization in healthcare systems. Combined RL algorithms with graph neural 
+              networks for intelligent decision-making.
+            </div>
+            <div class="project-tech">
+              <span>Reinforcement Learning</span>
+              <span>Knowledge Graphs</span>
+              <span>Neural Networks</span>
+              <span>Python</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">Enterprise Telecom Platform</div>
+            <div class="project-description">
+              Large-scale Java Spring Boot application serving millions of users in the telecommunications industry. 
+              Implemented microservices architecture with Kubernetes orchestration and integrated ML models for intelligent automation.
+            </div>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Kubernetes</span>
+              <span>AWS</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">CI/CD Pipeline Automation</div>
+            <div class="project-description">
+              Designed and implemented automated CI/CD pipelines reducing deployment time by 60% 
+              and improving system reliability through automated testing and deployment strategies. 
+              Integrated ML model deployment pipelines.
+            </div>
+            <div class="project-tech">
+              <span>CI/CD</span>
+              <span>Docker</span>
+              <span>Kubernetes</span>
+              <span>MLOps</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">Cloud Infrastructure Design</div>
+            <div class="project-description">
+              Architected scalable cloud infrastructure on AWS and Kubernetes (EKS, TKGS), 
+              enabling high availability and efficient resource utilization. Designed infrastructure 
+              to support ML workloads and model serving.
+            </div>
+            <div class="project-tech">
+              <span>AWS</span>
+              <span>EKS</span>
+              <span>Infrastructure</span>
+              <span>Cloud</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="publications-list">
+          <div class="publication-item">
+            <a href="https://ieeexplore.ieee.org/abstract/document/11035276" target="_blank" rel="noopener">
+              Transformer-Based Threat Detection in Blockchain Healthcare Transactions
+            </a>
+          </div>
+          <div class="publication-item">
+            <a href="https://ieeexplore.ieee.org/abstract/document/11042338" target="_blank" rel="noopener">
+              AI-Based Framework for Medical Cost Forecasting and Financial Transaction Monitoring in Healthcare
+            </a>
+          </div>
+          <div class="publication-item">
+            <a href="https://www.nature.com/articles/s41598-025-14355-8" target="_blank" rel="noopener">
+              A hybrid reinforcement learning and knowledge graph framework for financial risk optimization in healthcare systems
+            </a>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 32px;">
+          <a href="https://scholar.google.com/citations?hl=en&user=2KUsRlAAAAAJ" target="_blank" rel="noopener" class="btn btn-primary">
+            View All on Google Scholar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+          <p style="font-size: 18px; color: var(--text-secondary); margin-bottom: 32px;">
+            I'm always open to discussing new opportunities, collaborations, or just having a conversation about AI, Machine Learning, and technology innovation.
+          </p>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary" id="emailBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              Send Email
+            </a>
+            <a href="https://www.linkedin.com/in/ahsan-ahmed-2b89b0180/" target="_blank" rel="noopener" class="btn btn-secondary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.98 3.5A2.5 2.5 0 1 1 2.48 6 2.5 2.5 0 0 1 4.98 3.5ZM3 8h4v13H3zm7 0h3.8v1.78h.05A4.16 4.16 0 0 1 18.5 8c3.2 0 3.8 2.1 3.8 4.8V21H18v-6.1c0-1.46-.03-3.34-2.03-3.34-2.03 0-2.34 1.58-2.34 3.23V21h-4z"/>
+              </svg>
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <script>document.write(new Date().getFullYear())</script> Ahsan Ahmed. Built with passion for AI, ML, and technology innovation.</p>
+      <p style="margin-top: 8px; font-size: 14px; color: var(--text-secondary);">
+        Location: St. Louis, Missouri | MS Analytics @ Georgia Tech
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
