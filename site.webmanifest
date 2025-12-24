@@ -1,0 +1,24 @@
+{
+  "name": "Ahsan Ahmed - Software Engineer & AI/ML Researcher",
+  "short_name": "Ahsan Ahmed",
+  "description": "Personal website of Ahsan Ahmed - Software Engineer specializing in AI, Machine Learning, Deep Learning, and Neural Networks",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#60a5fa",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
+
